@@ -1,0 +1,37 @@
+{
+  "name": "the part experience",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedFirst": {
+      "Start": {
+        "$path": "Source/Start"
+      }
+    },
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "Source/Shared"
+      },
+      "Packages": {
+        "$path": "Packages"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "Source/Server"
+      },
+      "Packages": {
+        "$path": "ServerPackages"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "Source/Client"
+        }
+      }
+    }
+  }
+}
